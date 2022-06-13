@@ -1,0 +1,29 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.sampleNav {
+    background-color: #333;
+}
+.sampleNav td {
+    max-width: 50px;
+}
+.sampleNav td:hover {
+    background-color: #111;
+}
+.tableHeader {
+    background-color: #171717;  
+}
+.content {
+    background-color: #545454;
+}
+.white {
+    color: white;
+}
+.setPadding {
+    padding: 16px 16px;
+}
