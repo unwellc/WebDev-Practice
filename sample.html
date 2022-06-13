@@ -6,20 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="table.css">
     <link rel ="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <img src="/assets/sample_header.jpg">
-        <div class="centered"><h2>MY PROFILE LINKS</h2></div>
-        <h2>Social Media Links</h2>
-    </div>
-    <div class="box">
-       <ul>
-        <a href="https://www.facebook.com/anwille.catindig" target="_blank"><img class="fb"></a>
-        <a href="https://www.twitter.com/unwellc" target="_blank"><img class="twitter"></a>
-        <a href="https://www.instagram.com/unwellc" target="_blank"><img class="ig"></a>
-       </ul>
-    </div>>
+  <div class="imgclass">
+    <img class="headerimg" src="/assets/sample_header.jpg">
+    <img class="headerimg flipped" src="/assets/sample_header.jpg">
+    <h2 class="centered">MY PROFILE</h2>
+  </div>
+  <table>
+    <th class="tableHeader white setPadding" colspan="5">
+      <h2>Sample Table</h2>
+    </th>
+    <tr class="sampleNav">
+      <td class="setPadding"><a class="white" href="#home">Home</a></td>
+      <td class="setPadding"><a class="white" href="#image">Image</a></td>
+      <td class="setPadding"><a class="white" href="#paragraph">Paragraph</a></td>
+      <td class="setPadding"><a class="white" href="#video">Video</a></td>
+      <td class="setPadding"><a class="white" href="#footer">Copyright</a></td>  
+    </tr>
+    <tr class="content white">
+      <td class="setPadding" colspan="5">Social Media Links</td>
+    </tr>
+    <tr class="content">
+      <td class="content" colspan="5">
+          <a href="https://www.facebook.com/anwille.catindig" target="_blank"><img class="fb"></a>
+          <a href="https://www.twitter.com/unwellc" target="_blank"><img class="twitter"></a>
+          <a href="https://www.instagram.com/unwellc" target="_blank"><img class="ig"></a>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
