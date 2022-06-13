@@ -1,40 +1,41 @@
-
-body {
-    margin: 0;
-}
-.imgclass {
-    display: flex;
-}
-.headerimg {
-    width: 50%;
-}
-.flipped {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-h2,
-h3{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -700%);
-}
-.fb {
-	width: 136px;
-	height: 136px;
-    background: url('assets/socmed_icons.jpg') no-repeat -56px -64px;
-}
-.twitter {
-	width: 136px;
-	height: 136px;
-    background: url('assets/socmed_icons.jpg') no-repeat -424px -64px;
-}
-.ig {
-	background: url('assets/socmed_icons.jpg') no-repeat -240px -600px;
-	width: 136px;
-	height: 136px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="table.css">
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="imgclass">
+    <img class="headerimg" src="/assets/sample_header.jpg">
+    <img class="headerimg flipped" src="/assets/sample_header.jpg">
+    <h2 class="centered">MY PROFILE</h2>
+  </div>
+  <table>
+    <th class="tableHeader white setPadding" colspan="5">
+      <h2>Sample Table</h2>
+    </th>
+    <tr class="sampleNav">
+      <td class="setPadding"><a class="white" href="#home">Home</a></td>
+      <td class="setPadding"><a class="white" href="#image">Image</a></td>
+      <td class="setPadding"><a class="white" href="#paragraph">Paragraph</a></td>
+      <td class="setPadding"><a class="white" href="#video">Video</a></td>
+      <td class="setPadding"><a class="white" href="#footer">Copyright</a></td>  
+    </tr>
+    <tr class="content white">
+      <td class="setPadding" colspan="5">Social Media Links</td>
+    </tr>
+    <tr class="content">
+      <td class="content" colspan="5">
+          <a href="https://www.facebook.com/anwille.catindig" target="_blank"><img class="fb"></a>
+          <a href="https://www.twitter.com/unwellc" target="_blank"><img class="twitter"></a>
+          <a href="https://www.instagram.com/unwellc" target="_blank"><img class="ig"></a>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
