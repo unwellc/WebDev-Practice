@@ -1,18 +1,8 @@
 body{
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-}
-div{
-    margin: auto;
     text-align: center;
-}
-.box {
-    margin: auto;
-    width: 40%;
-    border: 3px solid black;
-    padding: 50px;
-    text-align: center;
+    margin: 0;
 }
 .imgclass{
     display: flex; 
