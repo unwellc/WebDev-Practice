@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
 div{
     margin: auto;
     text-align: center;
@@ -9,15 +14,21 @@ div{
     padding: 50px;
     text-align: center;
 }
-h2,
-h3{
-    font-family: 'Montserrat', sans-serif;
+.imgclass{
+    display: flex; 
+}
+.headerimg {
+    width: 683px;   
+}
+.flipped {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 .centered{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -300%);
+    transform: translate(-50%, -850%);
 }
 .fb {
 	width: 136px;
