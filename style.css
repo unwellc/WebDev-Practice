@@ -1,37 +1,33 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
 }
-.imgclass{
-    display: flex; 
+.imgclass {
+  background-image: url("assets/sample_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
 }
-.headerimg {
-    width: 683px;   
-}
-.flipped {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -850%);
+.centered {
+  margin-top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, 300%);
 }
 .fb {
-	width: 136px;
-	height: 136px;
-    background: url('assets/socmed_icons.jpg') no-repeat -56px -64px;
+  width: 136px;
+  height: 136px;
+  background: url("assets/socmed_icons.jpg") no-repeat -56px -64px;
 }
 .twitter {
-	width: 136px;
-	height: 136px;
-    background: url('assets/socmed_icons.jpg') no-repeat -424px -64px;
+  width: 136px;
+  height: 136px;
+  background: url("assets/socmed_icons.jpg") no-repeat -424px -64px;
 }
 .ig {
-	background: url('assets/socmed_icons.jpg') no-repeat -240px -600px;
-	width: 136px;
-	height: 136px;
+  background: url("assets/socmed_icons.jpg") no-repeat -240px -600px;
+  width: 136px;
+  height: 136px;
 }
