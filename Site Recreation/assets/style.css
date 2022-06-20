@@ -2,14 +2,6 @@ body {
   margin: auto;
   font-family: "Montserrat", sans-serif;
 }
-.navbar {
-  display: flex !important;
-  justify-content: space-around;
-}
-.container {
-  display: flex;
-  align-items: center;
-}
 .navimg {
   width: 20%;
   margin-left: 100px;
@@ -33,10 +25,7 @@ body {
   background: url("tesla-car-motion.jpg");
   background-size: cover;
   height: 850px;
-  display: flex !important;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
 .headline_container {
   max-width: 650px;
@@ -58,20 +47,37 @@ body {
   background-color: #fff;
   color: black;
   padding: 17px 35px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
   font-weight: bolder;
   letter-spacing: 2px;
 }
-.button:hover{
-  background-color: rgb(225, 225, 225)
+.button:hover {
+  background-color: rgb(225, 225, 225);
 }
-.body_title{
-  text-align: center;
+.body_title {
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 27px;
   font-weight: 500;
+}
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+.center_text {
+  text-align: center;
+}
+.flex {
+  display: flex !important;
+}
+.card {
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
