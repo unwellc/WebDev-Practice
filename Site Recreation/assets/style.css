@@ -1,26 +1,54 @@
 body {
-  margin: auto;
   font-family: "Montserrat", sans-serif;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+footer {
+  background-color: #000;
+}
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+.center_text {
+  text-align: center;
+}
+.right {
+  flex-direction: row-reverse;
+  padding-right: 42px;
+}
+.flex {
+  display: flex !important;
+}
+.nav_container {
+  max-width: 1173px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.navmenu {
+  width: 35%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .navimg {
-  width: 20%;
-  margin-left: 100px;
-  margin-right: 250px;
+  width: 300px;
 }
-.navimg img {
-  padding: 20px 0 20px 0;
-  width: 100%;
-}
-.navmenu li {
-  list-style-type: none;
-  display: inline;
-}
-.navmenu li a {
+.nav_options{
   font-size: 20px;
   color: black;
-  text-decoration: none;
-  padding-right: 90px;
 }
+.nav_options ul {
+  padding: 0;
+  list-style-type: none;
+}
+.nav_options li {
+  padding-left: 120px;
+}
+
 .headline_img {
   background: url("tesla-car-motion.jpg");
   background-size: cover;
@@ -28,9 +56,8 @@ body {
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
 .headline_container {
-  max-width: 650px;
+  max-width: 1173px;
   width: 100%;
-  padding-right: 475px;
 }
 .headline_contents {
   color: white;
@@ -43,41 +70,159 @@ body {
   font-size: 28px;
   font-weight: 400;
 }
+.body_title {
+  font-size: 27px;
+  font-weight: 500;
+  margin: 100px;
+}
+.btm_margin_main {
+  margin: 0 1em 6.25em 1em;
+}
 .button {
   background-color: #fff;
   color: black;
   padding: 17px 35px;
-  text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: 600;
   letter-spacing: 2px;
 }
 .button:hover {
   background-color: rgb(225, 225, 225);
 }
-.body_title {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 27px;
-  font-weight: 500;
+.footer_button {
+  background-color: #845afa;
+  color: white;
 }
-.centered {
-  justify-content: center;
-  align-items: center;
+.footer_button:hover {
+  background-color: #703cff;
 }
-.center_text {
-  text-align: center;
-}
-.flex {
-  display: flex !important;
+.card_button {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #845afa;
 }
 .card {
-  position: relative;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+.card_body {
+  font-size: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.card_body h4 {
+  margin-bottom: 0;
+}
+
+.main_left_container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1173px;
+  margin-bottom: 165px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.main_left_container > div {
+  flex: 1;
+}
+.image_container {
+  width: 65%;
+  min-width: 65%;
+}
+.overlap_img {
+  background-image: url("annie-spratt-6a3nqQ1YwBw-unsplash.jpg");
+  background-size: cover;
+  min-width: 30%;
+  position: relative;
+  left: -100px;
+  bottom: -60px;
+  height: 150px;
+  padding: 45px 75px 75px 50px;
+  color: #fff;
+}
+.right_overlap {
+  left: 100px;
+}
+.overlap_img h3 {
+  margin-top: 0;
+  font-size: 28px;
+}
+.overlap_img p {
+  margin-top: 0;
+  font-size: 18px;
+}
+.testimonial {
+  font-size: 24px;
+  font-weight: 900;
+  font-style: italic;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimonial p {
+  font-size: 18px;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+.footer_bg {
+  background: linear-gradient(#845afa, #845afa), url("3731008.webp");
+}
+.footer_padding {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.footer_container {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1173px;
+}
+.footer_button2 {
+  margin: auto;
+  margin-right: 0;
+}
+.footer_contents {
+  max-width: 65%;
+}
+.footer_contents p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.footer_links_container {
+  max-width: 1173px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+}
+.footer_links_container p, .footer_links_container a{
+  color: #fff;
+}
+.footer_links {
+  max-width: 25%;
+  padding-right: 125px;
+}
+.main_link {
+  display: block;
+  font-size: 22px;
+  padding-top: 15px;
+}
+.links_title{
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+  color: #858585
+}
+.zero_m {
+  margin-top: 0;
+  margin-bottom: 0;
 }
